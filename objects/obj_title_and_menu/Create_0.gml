@@ -1,5 +1,2 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 3A64FC3C
-/// @DnDArgument : "var" "previous_room"
+//setting the global variable to 0
 global.previous_room = 0;
