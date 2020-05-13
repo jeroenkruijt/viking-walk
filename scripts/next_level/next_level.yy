@@ -1,8 +1,8 @@
 {
-    "id": "793dc6ea-2f51-44af-9760-d96222a69ffb",
+    "id": "4c25baa9-6e64-4844-b269-c98435917b0d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "tasked_next_level",
+    "name": "next_level",
     "IsCompatibility": false,
     "IsDnD": false
 }
