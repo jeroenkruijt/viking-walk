@@ -12,7 +12,7 @@
         "fd831c9c-4f26-4e76-aff7-b6f28589c8ad"
     ],
     "filterType": "GMSprite",
-    "folderName": "Gem Pack",
+    "folderName": "Gem",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

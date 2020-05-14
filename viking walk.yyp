@@ -34,7 +34,7 @@
             "Key": "06473cc0-4e05-4eb8-855a-7251e0e2a99f",
             "Value": {
                 "id": "a0026331-4def-405f-928a-280bc27cbedc",
-                "resourcePath": "sprites\\Gem_amethyst_sp\\Gem_amethyst_sp.yy",
+                "resourcePath": "sprites\\s_gem_amethyst\\s_gem_amethyst.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -66,7 +66,7 @@
             "Key": "17b6531e-dac7-462b-8599-5822509a7e85",
             "Value": {
                 "id": "20c0aaf6-263f-4263-babe-d46f4886b24f",
-                "resourcePath": "objects\\obj_text_end2\\obj_text_end2.yy",
+                "resourcePath": "objects\\obj_text_made_it\\obj_text_made_it.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -130,7 +130,7 @@
             "Key": "3829a420-9ac4-4e53-a0ad-625511469cab",
             "Value": {
                 "id": "12652fb9-e217-4ffe-8f0c-c6745b0b9b0d",
-                "resourcePath": "sprites\\Gem_sapphire_sp\\Gem_sapphire_sp.yy",
+                "resourcePath": "sprites\\s_gem_sapphire\\s_gem_sapphire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -298,7 +298,7 @@
             "Key": "79136ae4-5f50-43d5-8db1-c340e6b2cbd5",
             "Value": {
                 "id": "73bed9e6-78bd-4743-b725-ad681a3325ff",
-                "resourcePath": "sprites\\Gem_ruby_sp\\Gem_ruby_sp.yy",
+                "resourcePath": "sprites\\s_gem_ruby\\s_gem_ruby.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -346,7 +346,7 @@
             "Key": "83525667-bb34-498c-86e7-c3bd662ae674",
             "Value": {
                 "id": "dee1fcef-338b-4e60-8cff-0df2e3e6151e",
-                "resourcePath": "sprites\\Gem_diamond_sp\\Gem_diamond_sp.yy",
+                "resourcePath": "sprites\\s_gem_diamond\\s_gem_diamond.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -450,7 +450,15 @@
             "Key": "b5078cbd-16de-461f-8c8b-2ee746129af0",
             "Value": {
                 "id": "2cbb1a95-3803-4eb5-9a40-39f1508c0f2e",
-                "resourcePath": "sprites\\Gem_emerald_sp\\Gem_emerald_sp.yy",
+                "resourcePath": "sprites\\s_gem_emerald\\s_gem_emerald.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba7b04ae-e268-4c60-89ab-e4bbb6301c41",
+            "Value": {
+                "id": "af0d90cc-c8dc-49ee-8fbe-b3e8f259fb43",
+                "resourcePath": "sprites\\s_finishline\\s_finishline.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -506,7 +514,7 @@
             "Key": "def62fc6-b8f3-4ceb-a122-ff5c30f34bab",
             "Value": {
                 "id": "08863edc-9053-408a-a8ca-9426aab11a61",
-                "resourcePath": "objects\\obj_text_end1\\obj_text_end1.yy",
+                "resourcePath": "objects\\obj_text_lose\\obj_text_lose.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "f4484734-6302-4968-9abd-e3c4388ee321",
+            "Value": {
+                "id": "c79b468f-910d-4c98-aff3-123c13ec4346",
+                "resourcePath": "objects\\obj_finishline\\obj_finishline.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f5063a05-9dbc-4469-bb23-44b1d44c5da0",
             "Value": {
                 "id": "2526185a-4c30-4b76-a31b-97174b1aef34",
@@ -578,7 +594,7 @@
             "Key": "fd831c9c-4f26-4e76-aff7-b6f28589c8ad",
             "Value": {
                 "id": "f895a658-61b4-4697-ad1b-901bbf7f44b5",
-                "resourcePath": "sprites\\Gem_topaz_sp\\Gem_topaz_sp.yy",
+                "resourcePath": "sprites\\s_gem_topaz\\s_gem_topaz.yy",
                 "resourceType": "GMSprite"
             }
         }

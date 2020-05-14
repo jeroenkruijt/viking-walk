@@ -18,5 +18,5 @@ draw_set_font(font_title);
 /// @DnDHash : 0AF179B1
 /// @DnDArgument : "x" "512"
 /// @DnDArgument : "y" "288"
-/// @DnDArgument : "caption" ""Odin welcomes you in valhalla! Press space to reset!""
-draw_text(512, 288, string("Odin welcomes you in valhalla! Press space to reset!") + "");
+/// @DnDArgument : "caption" ""you made your warchief proud! Press space to reset!""
+draw_text(512, 288, string("you made your warchief proud! Press space to reset!") + "");

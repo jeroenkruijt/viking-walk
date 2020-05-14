@@ -2,7 +2,7 @@
     "id": "06473cc0-4e05-4eb8-855a-7251e0e2a99f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Gem_amethyst_sp",
+    "name": "s_gem_amethyst",
     "For3D": false,
     "HTile": false,
     "VTile": false,
