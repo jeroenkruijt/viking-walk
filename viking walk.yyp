@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "c65045d9-fa57-4dfc-bd2d-cc5192a1ca23",
+            "Value": {
+                "id": "0f96b03d-efee-4f18-a0c7-fc168276f0e9",
+                "resourcePath": "objects\\obj_text_made_it1\\obj_text_made_it1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c92ea9b5-9380-4633-aac6-528d584c2f22",
             "Value": {
                 "id": "c75893ab-1541-410b-8b5b-6e5c81e4d123",

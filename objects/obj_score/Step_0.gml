@@ -24,7 +24,7 @@ if(room == resultscreen)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 575D3CA0
+		/// @DnDHash : 64FF2AA0
 		/// @DnDParent : 3EA336FA
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "1"
@@ -33,35 +33,34 @@ if(room == resultscreen)
 		{
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
-			/// @DnDHash : 772FD0C6
-			/// @DnDApplyTo : 17b6531e-dac7-462b-8599-5822509a7e85
-			/// @DnDParent : 575D3CA0
+			/// @DnDHash : 629CB8CE
+			/// @DnDParent : 64FF2AA0
 			/// @DnDArgument : "xpos" "512"
+			/// @DnDArgument : "xpos_relative" "1"
 			/// @DnDArgument : "ypos" "288"
+			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "obj_text_lose"
 			/// @DnDSaveInfo : "objectid" "def62fc6-b8f3-4ceb-a122-ff5c30f34bab"
-			with(obj_text_made_it) {
-				instance_create_layer(512, 288, "Instances", obj_text_lose); 
-			}
+			instance_create_layer(x + 512, y + 288, "Instances", obj_text_lose);
 		
 			/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 			/// @DnDVersion : 1
-			/// @DnDHash : 3DF03AE3
-			/// @DnDParent : 575D3CA0
-			var l3DF03AE3_0;
-			l3DF03AE3_0 = keyboard_check_pressed(vk_space);
-			if (l3DF03AE3_0)
+			/// @DnDHash : 53486C97
+			/// @DnDParent : 64FF2AA0
+			var l53486C97_0;
+			l53486C97_0 = keyboard_check_pressed(vk_space);
+			if (l53486C97_0)
 			{
 				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 				/// @DnDVersion : 1
-				/// @DnDHash : 5A4867A2
-				/// @DnDParent : 3DF03AE3
+				/// @DnDHash : 14860EF9
+				/// @DnDParent : 53486C97
 				instance_destroy();
 			
 				/// @DnDAction : YoYo Games.Game.Restart_Game
 				/// @DnDVersion : 1
-				/// @DnDHash : 6DAC7E88
-				/// @DnDParent : 3DF03AE3
+				/// @DnDHash : 64A8206A
+				/// @DnDParent : 53486C97
 				game_restart();
 			}
 		}
@@ -90,9 +89,9 @@ if(room == resultscreen)
 				/// @DnDParent : 6BA05C5E
 				/// @DnDArgument : "xpos" "512"
 				/// @DnDArgument : "ypos" "288"
-				/// @DnDArgument : "objectid" "obj_text_made_it"
-				/// @DnDSaveInfo : "objectid" "17b6531e-dac7-462b-8599-5822509a7e85"
-				instance_create_layer(512, 288, "Instances", obj_text_made_it);
+				/// @DnDArgument : "objectid" "obj_text_lose"
+				/// @DnDSaveInfo : "objectid" "def62fc6-b8f3-4ceb-a122-ff5c30f34bab"
+				instance_create_layer(512, 288, "Instances", obj_text_lose);
 			
 				/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 				/// @DnDVersion : 1

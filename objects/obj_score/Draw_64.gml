@@ -16,6 +16,8 @@ draw_set_font(font_title);
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
 /// @DnDVersion : 1
 /// @DnDHash : 40FCEB6C
+/// @DnDArgument : "x" "512"
+/// @DnDArgument : "y" "60"
 /// @DnDArgument : "caption" ""gems collected:  ""
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-draw_text(0, 0, string("gems collected:  ") + string(__dnd_score));
+draw_text(512, 60, string("gems collected:  ") + string(__dnd_score));
