@@ -28,8 +28,8 @@ if(room == resultscreen)
 		/// @DnDParent : 3EA336FA
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "1"
-		/// @DnDArgument : "value" "15"
-		if(gem_collected < 15)
+		/// @DnDArgument : "value" "20"
+		if(gem_collected < 20)
 		{
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
@@ -71,8 +71,8 @@ if(room == resultscreen)
 		/// @DnDParent : 3EA336FA
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "15"
-		if(gem_collected >= 15)
+		/// @DnDArgument : "value" "20"
+		if(gem_collected >= 20)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
@@ -80,8 +80,8 @@ if(room == resultscreen)
 			/// @DnDParent : 12388DD0
 			/// @DnDArgument : "var" "gem_collected"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "20"
-			if(gem_collected <= 20)
+			/// @DnDArgument : "value" "29"
+			if(gem_collected <= 29)
 			{
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
@@ -89,9 +89,9 @@ if(room == resultscreen)
 				/// @DnDParent : 6BA05C5E
 				/// @DnDArgument : "xpos" "512"
 				/// @DnDArgument : "ypos" "288"
-				/// @DnDArgument : "objectid" "obj_text_lose"
-				/// @DnDSaveInfo : "objectid" "def62fc6-b8f3-4ceb-a122-ff5c30f34bab"
-				instance_create_layer(512, 288, "Instances", obj_text_lose);
+				/// @DnDArgument : "objectid" "obj_text_made_it"
+				/// @DnDSaveInfo : "objectid" "17b6531e-dac7-462b-8599-5822509a7e85"
+				instance_create_layer(512, 288, "Instances", obj_text_made_it);
 			
 				/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 				/// @DnDVersion : 1
@@ -133,8 +133,8 @@ if(room == resultscreen)
 		/// @DnDParent : 5E768642
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "1"
-		/// @DnDArgument : "value" "25"
-		if(gem_collected < 25)
+		/// @DnDArgument : "value" "30"
+		if(gem_collected < 30)
 		{
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
@@ -174,8 +174,8 @@ if(room == resultscreen)
 		/// @DnDParent : 5E768642
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "25"
-		if(gem_collected >= 25)
+		/// @DnDArgument : "value" "30"
+		if(gem_collected >= 30)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
@@ -183,8 +183,8 @@ if(room == resultscreen)
 			/// @DnDParent : 08223E51
 			/// @DnDArgument : "var" "gem_collected"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "30"
-			if(gem_collected <= 30)
+			/// @DnDArgument : "value" "39"
+			if(gem_collected <= 39)
 			{
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
@@ -236,8 +236,8 @@ if(room == resultscreen)
 		/// @DnDParent : 629D63BC
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "1"
-		/// @DnDArgument : "value" "35"
-		if(gem_collected < 35)
+		/// @DnDArgument : "value" "40"
+		if(gem_collected < 40)
 		{
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
@@ -277,8 +277,8 @@ if(room == resultscreen)
 		/// @DnDParent : 629D63BC
 		/// @DnDArgument : "var" "gem_collected"
 		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "35"
-		if(gem_collected >= 35)
+		/// @DnDArgument : "value" "40"
+		if(gem_collected >= 40)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
@@ -286,8 +286,8 @@ if(room == resultscreen)
 			/// @DnDParent : 45BE6E72
 			/// @DnDArgument : "var" "gem_collected"
 			/// @DnDArgument : "op" "3"
-			/// @DnDArgument : "value" "40"
-			if(gem_collected <= 40)
+			/// @DnDArgument : "value" "50"
+			if(gem_collected <= 50)
 			{
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
