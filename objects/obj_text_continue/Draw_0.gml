@@ -17,6 +17,6 @@ draw_set_font(font_title);
 /// @DnDVersion : 1
 /// @DnDHash : 0AF179B1
 /// @DnDArgument : "x" "512"
-/// @DnDArgument : "y" "288"
-/// @DnDArgument : "caption" ""you made your warchief proud!\n Press space to continue!""
-draw_text(512, 288, string("you made your warchief proud!\n Press space to continue!") + "");
+/// @DnDArgument : "y" "700"
+/// @DnDArgument : "caption" ""Press space to continue!""
+draw_text(512, 700, string("Press space to continue!") + "");

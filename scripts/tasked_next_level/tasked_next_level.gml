@@ -14,17 +14,17 @@ draw_set_colour($FFFF00FF);
 //if statement checks global variabel 
 if(global.previous_room == 0)
 {
-	draw_text(512, 410,  + string(15));
+	draw_text(512, 410,  + string(20));
 }
 
 if(global.previous_room == 1)
 {
-	draw_text(512, 410,  + string(25));
+	draw_text(512, 410,  + string(30));
 }
 
 if(global.previous_room == 2)
 {
-	draw_text(512, 410,  + string(35));
+	draw_text(512, 410,  + string(40));
 }
 
 //set color back
